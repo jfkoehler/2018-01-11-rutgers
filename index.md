@@ -294,7 +294,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </p>
 
 <div id="shell"> {% comment %} Start of 'shell' section. {% endcomment %}
-  <h3>The Bash Shell</h3>
+
 
 {% comment %}
   <p>
