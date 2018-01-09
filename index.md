@@ -220,13 +220,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% endif %}
 
 
-{% if page.carpentry == "swc" %}
-  {% include sc/schedule.html %}
-{% elsif page.carpentry == "dc" %}
-  {% include dc/schedule.html %}
-{% elsif page.carpentry == "lc" %}
-  {% include lc/schedule.html %}
-{% endif %}
+
 
 {% comment %}
   Collaborative Notes
@@ -240,7 +234,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% endcomment %}
 
 <p id="collaborative_notes">
-  We will use this <a href="{{page.collaborative_notes}}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
+  We will use this <a href=" http://pad.software-carpentry.org/2018-01-11-rutgers">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
 </p>
 
 
